@@ -1,6 +1,12 @@
+#crear un repo
 git init
+#añadir todos los archivos en esa carpeta
 git add .
+#crear el commit
 git commit -m "primer commit"
+#crear una rama
 git branch -M main
+#añadir a un repositorio remoto con la url
 git remote add origin https://github.com/PaulChomik/comandos-git.git
+#pushear el repositorio
 git push -u origin main
